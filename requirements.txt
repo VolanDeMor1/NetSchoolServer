@@ -1,5 +1,5 @@
 asyncio~=3.4.3
-"Flask[async]"~=2.1.1
+Flask~=2.1.1
 waitress~=2.1.1
 httpx~=0.22.0
 netschoolapi~=7.1.5

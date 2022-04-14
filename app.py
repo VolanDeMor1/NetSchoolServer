@@ -6,7 +6,6 @@ from flask import request
 from flask import jsonify
 from flask_cors import CORS
 from urllib.parse import unquote
-import threading
 import time
 from lib import NetSchoolAPI
 import json
