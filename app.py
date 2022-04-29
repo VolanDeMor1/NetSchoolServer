@@ -1,5 +1,6 @@
-# TODO сервер, который будет обрабатывать запросы на вход в SGO (замена 'pages/api/sgo/...')
+# Cервер, который будет обрабатывать запросы на получение информации из сайта СГО
 #  главное условие: Обрабатывать не через API, а через открытую библиотеку.
+
 import asyncio
 import flask
 from flask import request
@@ -13,7 +14,6 @@ import json
 
 cache = dict()
 app = flask.Flask(__name__)
-# TODO надо разрешить пользоваться сайтом только домен thegrade.ru
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 
