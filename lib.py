@@ -1,3 +1,5 @@
+# Здесь просто мои личные доработки библиотеки
+
 from datetime import date, timedelta
 from hashlib import md5
 from io import BytesIO
